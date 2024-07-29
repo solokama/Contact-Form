@@ -1,0 +1,97 @@
+/*Reset*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*Styling h2 of class contact */
+
+.contact{
+    justify-content: center;
+    margin-left:20px;
+}
+
+.contact h2{
+    color:#000;
+    margin-top:35px;
+    line-height:2rem;
+    border-radius:4px;
+    height:35px;
+    width:80%;
+    text-align: center; 
+    font-size: 2rem;
+}
+
+
+
+/*The hover effect of h2 of class contact*/
+
+.contact h2:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+    
+}
+
+/*Styling the Label element of the form*/
+
+label{
+    margin-left:10px;
+    padding:12px 12px 12px 1px;
+    display:flex;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:red;
+
+
+}
+
+/*Styling the input elements of the code*/
+
+input[type=text],
+input[type=email],
+input[type=password]{
+
+    /* width: 50%;
+    height: 30px;
+    border: 1px solid none;
+    margin-top: 12px;
+    display: block;
+    resize: vertical; */
+
+    width:80%;
+    display:block;
+    height:40px;
+    border: 1px solid #ccc;
+    border-radius:4px;
+    padding-left: 15px;
+    margin:10px;
+    resize: vertical;
+}
+
+
+/*Styling the button*/
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+    border-radius:5px;
+    border:none;
+}
+
+/*Styling the button by putting the hover effect*/
+button:hover{
+    background-color: red;
+}
+
+/*Styling the button by addding the focus aspect*/
+
+button:focus{
+    background-color:green;
+}
